@@ -1,0 +1,45 @@
+1.What is oops stands for?
+      => object Oriented programming language.
+2.What is Polymorphism? explain types?
+      =>It is multiple form of implementation.
+      Types:
+         1.Method overloading
+         2.Method overriding
+3.what is interface and example in selenium,java?
+       =>It is an abstract type,its specifies the behaviour of the class.
+       =>It has umimplemented methods,to overcome multiple inheritance interface used.
+       =>can access one or more class methods at the time in one class called interface.
+Selenium interface example:
+     =>Webelement
+4.what is abstarct class and example?
+     =>abstract class is an class,which have abstract methods.It partially used for future purpose.
+     =>It contains both implemented and unimplemented methods.
+Example:
+    public void abstract Sum{
+          public void add();
+           public void sub(){  .....}
+
+5.Difference between multiple inheritance and multilevel inheritance
+        Multilevel Inheritance:
+               =>A class inherits properties from a class which again has inherits properties.
+        Multiple Inheritance:
+               =>where a class can inherit properties of more than one parent class.
+6.Is multiple inheritance possible in java?
+         No,multiple inheritance is not possible in java,to overcome this interface is used
+7.What is keyword for using inheritance  
+          =>Extends is the keyword for using inheritance.
+8.what is the keyword to connect interface and class
+          =>Implements is the keyword to connect interface and class.
+9.what is difference between class and interface
+   Class:
+          =>class is an Template or blueprints to create object that share common properties and methods.
+   Interface:
+          =>interface is an blueprint of a class,it has unimplemented methods.
+          => to overcome multiple inheritance interface is used.
+10.what is difference between class and abstract class
+   Abstract class:
+           =>abstract class is an class,which have abstract methods.It partially used for future purpose.
+           =>It contains both implemented and unimplemented methods.
+   class:
+            =>class is an Template or blueprints to create object that share common properties and methods.
+            =>class has implemented methods.

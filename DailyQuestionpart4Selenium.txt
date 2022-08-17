@@ -1,0 +1,42 @@
+1) What is Selenium? What are the different Selenium components? Explain about Selenium Webdriver.
+    =>It is an open source tool that automates web browsers.
+  Components:
+   1.Selenium IDE
+   2.Selenium WebDriver
+   3.Selenium RC
+   4.Selenium Grid
+  Selenium WebDriver:
+     =>Selenium webdriver is framework that permits cross-browers tests.The tool is web based application testing to verify that performs expectedly.
+2) How does Selenium communicate with the Web browsers?
+    =>JSON wire protocol is a REST API that transfer information between HTTP Servers.Each browser driver has its own Http server.
+3.What are the locators available  to find an element using Selenium?
+      =>Id
+      =>name
+      =>Class
+      =>Linked text
+      =>Partially linked text
+      =>css selector
+      =>tagname
+      =>xpath
+4. Why ID is preferable than X-Path?
+      =>ID is the faster technique,because at its root,the call goes to down the document.getElementById which is optimized by most browsers but in xpath
+locating complex elements.
+5.How to select value in dropdown?
+       =>by using selectByValue .
+6) What is the difference between Absolute Path and Relative Path?
+    Absolute xpath:
+            it starts from root node. In future, when project updated to new features the path will get change.so its not preferable to use.
+    Relative xpath:
+             its start with current node. so, its always preferrable to use.
+7) How to verify if the given check box is checked or not (it is not taught but you can explore) Try here: http://leafground.com/pages/checkbox.html
+           => by isSelected() method we can check whether checkbox is selected or not.
+8)Difference between System.setProperty and WebDriverManager
+                  =>setProperty method is used to configure the browser driver path manually.
+                  => automates the browser setup in the Selenium code.
+9) Write the syntax for preceding and following x-paths.
+              Preceeding xpath:
+                         xpath(current node)://tagname[@attribute='attribute value']preceeding::input[matches index value].
+              following xpath:
+                         xpath(current node)://tagname[@attribute='attribute value']following::input[matches index value]
+10) How to get an attribute value using Selenium WebDriver?
+         By using getAttribute() method 

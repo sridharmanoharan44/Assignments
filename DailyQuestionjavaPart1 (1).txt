@@ -1,0 +1,52 @@
+
+       Answer All the Question
+1.Explain about the main method in java?
+       => we can create object only main method and code executes from main method.method calling done in main method.
+2.What are the different  Control flow Statements available in java?
+       =>Decision making statements
+          1.if statement
+          2.switch statement
+       =>Loop statements
+          1.do-while 
+          2.while
+          3.for loop
+          4.for-each loop
+       =>Jump statements
+          1.break
+          2.continue
+3.What is the Difference betweeen break and continue statements?
+     =>breaks flow of the program and transfer control to outside of a loop.
+     =>doesnt breaks break the loop,however skips the specific part of the loop and iterates the loop.
+4.What is an Array? How will you declare an array in java?
+      =>array is an collection of similar data of the same data type.
+  In literal:
+      datatype[] variable name ={value};
+  in new keyword:
+        datatype[] variable name = new dataype[value];
+5.When will you get ArrayIndexOutOfBoundsException?
+     =>when array iniatilized to 6 value but in output it goes 7 values ,then ArrayIndexOutOfBoundsException is raised.
+6.Define the Syntax to create an object for a class.
+What are the naming conventions to be followed while creating a class, 
+method and a variable.Explain with examoles
+    classname object name = new classname();
+=>class name starts with uppercase, method name starts with lowercase next word be with uppercase, variable name starts with lower case
+example :
+  Public void class Sum{}
+ public void addTo(){}
+ int sum= 10;
+
+7.What is Variable?How will you declare a variables in java?
+      =>it is usedefined name , its used store value ,variable name can be override.
+   declare:
+        int sum;
+8.What is String in java? Is it a Data Type?
+      =>string is an sequence of characters, it must intialiazed with double quotes.
+yes, it is an non primitive datatype.whereas,its an userdefined class too.
+9.What are the different ways to create the String Object in java?
+      using literal:
+         String variable name ="string name";
+    in new keyword:
+          String  variable name = new String("string name");
+10.What is the Difference between .Equals and ==?
+     ==   -> check from memory address.
+   .equals  ->checks content.
